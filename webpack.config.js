@@ -1,3 +1,4 @@
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: "./src/main.js",
   output: {
@@ -8,6 +9,15 @@ module.exports = {
   resolve: {
     extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
   },
+  plugins: [
+        new CopyWebpackPlugin([
+
+            // {output}/to/file.txt
+            { from: './index.html', to: 'dist/index.html' }
+
+
+        ])
+  ],
   module: {
     loaders: [
       {

@@ -37,5 +37,8 @@
     "typescript": "^1.8.9",
     "webpack": "^1.12.14",
     "zone.js": "^0.6.6"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^1.1.1"
   }
 }
