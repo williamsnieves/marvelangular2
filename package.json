@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "commit": "git add -A && git commit -m \"$(date)\" && npm version minor && git push origin master",
-    "deploy": "surge -p public -d marvel.surge.sh"
+    "deploy": "surge -p dist -d marvel.surge.sh"
   },
   "repository": {
     "type": "git",
