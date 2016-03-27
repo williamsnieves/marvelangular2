@@ -1,0 +1,1 @@
+{"version":3,"file":"menubar.js","sourceRoot":"","sources":["menubar.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAAwB,eAAe,CAAC,CAAA;AACxC,uBAAsD,iBAAiB,CAAC,CAAA;AAQxE;IAAA;IAAsB,CAAC;IANvB;QAAC,gBAAS,CAAC;YACT,QAAQ,EAAE,WAAW;YACrB,UAAU,EAAE,CAAC,qBAAY,EAAE,mBAAU,CAAC;YACtC,WAAW,EAAE,gCAAgC;SAC9C,CAAC;;gBAAA;IAEoB,eAAC;AAAD,CAAC,AAAvB,IAAuB;AAAV,gBAAQ,WAAE,CAAA"}

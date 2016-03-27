@@ -1,0 +1,41 @@
+{
+  "name": "marvelangular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "commit": "git add -A && git commit -m \"$(date)\" && npm version minor && git push origin master",
+    "deploy": "surge -p public -d marvel.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamsnieves/marvelangular2.git"
+  },
+  "keywords": [
+    "angular2",
+    "webpack",
+    "material"
+  ],
+  "author": "willians nieves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamsnieves/marvelangular2/issues"
+  },
+  "homepage": "https://github.com/williamsnieves/marvelangular2",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.12",
+    "css-loader": "^0.23.1",
+    "es6-shim": "^0.35.0",
+    "node-sass": "^3.4.2",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14",
+    "zone.js": "^0.6.6"
+  }
+}

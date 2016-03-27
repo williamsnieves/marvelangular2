@@ -1,0 +1,22 @@
+<div class="col s3">
+  <!-- Grey navigation panel -->
+  <ul class="collection">
+      <li class="collection-item avatar" *ngFor="#character of characters" (click)="getComics(character)">
+        <img src="{{character.thumbnail.path+'.'+character.thumbnail.extension}}" alt="" class="circle">
+        <span class="title">{{character.name}}</span>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+  </ul>
+</div>
+<div class="col s9">
+  <div class="card" *ngFor="#comic of comics">
+      <div class="card-image">
+        <img src="{{comic.thumbnail.path+'.'+comic.thumbnail.extension}}">
+        <span class="card-title">{{comic.title}}</span>
+      </div>
+      <div class="card-content">
+        <p>{{comic.description}}</p>
+      </div>
+
+    </div>
+</div>
